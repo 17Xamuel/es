@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body > div {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #009fe5;
+  color: white;
+}
+/* .banner-home-photo {
+  /* width: 50%;
+  height: 100%; */
+/* } */
+/* .banner-home-photo img { */
+/* background-blend-mode: darken; */
+/* background-color: #009fe5; */
+/* width: 100%; */
+/* height: 100%; */
+/* border-bottom-right-radius: 100%; */
+/* } */
+.banner-home-ctr > span:first-child {
+  font-size: 150px;
+}
+/* .banner-home-ctr > span:nth-child(2) {
+  margin: 0px 15px;
+} */
+.banner-home-ctr {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+
+.links-home-ctr {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  top: 100px;
+  right: 150px;
+  border-radius: 5px;
+  background: #009fe5;
+  box-shadow: 24px 24px 48px #0091d0, -24px -24px 48px #00adfa;
+}
+
+.links-home-ctr > div > div:first-child {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+}
+.links-home-ctr > div > div:nth-child(2) {
+  font-size: 17px;
+  padding: 0px 20px;
+}
+.links-home-ctr > div > div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.links-home-ctr > div > div:nth-child(3) > span {
+  margin: 15px 0px;
+}
